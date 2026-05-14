@@ -1,0 +1,12 @@
+/* Isso força o navegador a ocupar tudo e remove as bordinhas brancas */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;     /* Impede a barra de rolagem lateral */
+}
+
+* {
+  box-sizing: border-box; /* Impede que paddings "estiquem" o tamanho da tela */
+}
