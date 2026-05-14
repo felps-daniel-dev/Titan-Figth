@@ -6,6 +6,7 @@ import { Navbar } from '../navbar/Navbar'; // Importando a nova Navbar
 interface LayoutProps {
   titulo?: string;
   children?: ReactNode;
+  caminho?: string;
 }
 
 export const Layout: React.FC<LayoutProps> = ({ titulo, children }) => {
@@ -14,7 +15,7 @@ export const Layout: React.FC<LayoutProps> = ({ titulo, children }) => {
       <Menu />
       
       <main className="main-content">
-        <Navbar titulo={titulo} />
+        <Navbar titulo={titulo} caminho='' />
 
         <div className="content-area">
           {children}

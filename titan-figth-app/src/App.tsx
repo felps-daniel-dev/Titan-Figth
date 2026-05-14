@@ -1,6 +1,7 @@
 //import { useState } from 'react';
 import './App.css';
-import { Layout } from './components/layout/layout';
+import { CadastroUsuario } from './pages/alunos/CadastroAlunos'; 
+import { Layout } from './components/layout/Layout';
 
 export function App() {
   //const [count, setCount] = useState(0)

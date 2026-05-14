@@ -1,2 +1,2 @@
-export { Layout } from './layout/layout';
-export { Menu } from './layout/menu/menu';
+export { Layout } from './layout/Layout';
+export { Menu } from './layout/menu/Menu';
